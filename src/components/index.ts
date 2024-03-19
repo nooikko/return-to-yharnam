@@ -3,3 +3,4 @@ export * from './BottomBar';
 export * from './Header';
 export * from './WindowSizing';
 export * from './Button';
+export * from './LocalTime';

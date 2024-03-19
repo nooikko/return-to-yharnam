@@ -8,7 +8,7 @@ interface SectionProps extends PropsWithChildren, PropsWithTailwind {
 
 export const Section: React.FC<SectionProps> = ({ children, className, styles }) => {
   return (
-    <section style={styles} className={twMerge('min-h-[750px] w-full', className || '')}>
+    <section style={styles} className={twMerge('min-h-[650px] w-full', className || '')}>
       {children}
     </section>
   );

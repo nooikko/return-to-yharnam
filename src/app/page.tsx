@@ -1,4 +1,4 @@
-import { CallToAction, About, FindHunters, GetInvolved } from '@sections';
+import { CallToAction, About, FindHunters, GetInvolved, FAQ } from '@sections';
 
 export default function Home() {
   return (
@@ -7,6 +7,7 @@ export default function Home() {
       <About />
       <FindHunters />
       <GetInvolved />
+      <FAQ />
     </main>
   );
 }

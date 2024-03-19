@@ -41,6 +41,12 @@ export const GetInvolved: React.FC<GetInvolvedProps> = () => {
           </a>
         </div>
       </div>
+      <div className='mt-12 flex flex-col items-center justify-center space-y-5'>
+        <Header.H2>Other Platforms</Header.H2>
+        <div>
+          Use <span className='font-bold text-red-800'>#ReturnToYharnam2024</span> on your favorite platform to show support for the event!
+        </div>
+      </div>
     </Section>
   );
 };
