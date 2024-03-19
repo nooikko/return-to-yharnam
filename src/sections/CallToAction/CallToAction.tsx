@@ -37,7 +37,10 @@ export const CallToAction: React.FC<CallToActionProps> = () => {
           >
             Find Hunters
           </button>
-          <button className='rounded-md border border-neutral-900 border-opacity-60 bg-transparent px-8 py-3 text-sm font-bold uppercase text-neutral-900'>
+          <button
+            onClick={() => scrollToSection('get-involved-section')}
+            className='rounded-md border border-neutral-900 border-opacity-60 bg-transparent px-8 py-3 text-sm font-bold uppercase text-neutral-900'
+          >
             Get Involved
           </button>
           <div />

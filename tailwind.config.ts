@@ -21,6 +21,11 @@ const config: Config = {
         clamp: 'clamp(30px, 6vw, 48px)',
         'clamp-sm': 'clamp(12px, 6vw, 24px)',
       },
+      screens: {
+        '2xl': '1536px',
+        '3xl': '1920px',
+        '4xl': '2560px',
+      },
     },
   },
   plugins: [],

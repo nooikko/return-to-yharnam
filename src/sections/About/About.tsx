@@ -5,7 +5,7 @@ interface AboutProps {}
 
 export const About: React.FC<AboutProps> = () => {
   return (
-    <Section className='flex flex-col items-center bg-neutral-300 px-6 py-12 md:px-96'>
+    <Section className='flex flex-col items-center bg-neutral-300 px-6 py-12 lg:px-96'>
       <h1 className='mb-5 w-full text-center text-clamp uppercase'>About</h1>
       <div className='max-w-[1024px] space-y-5 text-lg'>
         <div>
