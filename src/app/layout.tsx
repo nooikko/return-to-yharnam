@@ -8,8 +8,12 @@ const monaSans = localFont({
   src: './Mona-Sans.woff2',
   variable: '--font-mona-sans', // Define a CSS variable name for Mona Sans
 });
+
 export const metadata: Metadata = {
   title: 'Return to Yharnam - 2024',
+  description: 'A yearly event where players return to the game of Bloodborne to play together and help new players.',
+  keywords:
+    'bloodborne, bloodborne ps5, co-op, when is return to yharnam, online, multiplayer, return to yharnam, yharnam, 2024, fromsoftware, event',
 };
 
 export default function RootLayout({
