@@ -21,6 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: './twitter.webp',
     title: 'Return to Yharnam - 2024',
+    url: 'https://returntoyharnam.com',
   },
 };
 
