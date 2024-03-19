@@ -25,7 +25,7 @@ export const CallToAction: React.FC<CallToActionProps> = () => {
           <h1 className='text-clamp-lg font-bold uppercase leading-none text-neutral-900'>Return to Yharnam</h1>
         </div>
         <div className='flex space-x-4 self-center text-clamp uppercase text-neutral-900 md:self-start'>
-          <div>MAR 22</div>
+          <div>MAR 24</div>
           <div className='leading-tight opacity-75'>—</div>
           <div className='text-right'>APR 7</div>
         </div>

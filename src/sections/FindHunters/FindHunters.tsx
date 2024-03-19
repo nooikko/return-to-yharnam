@@ -16,7 +16,7 @@ export const FindHunters: React.FC<FindHuntersProps> = () => {
           <div className='text-gray-300'>Sometimes it feels like Bloodborne is actively trying to stop your friend from summoning you.</div>
           <div className='text-gray-300'>You can fight back with these tips and tricks.</div>
           <ul className='mt-5 list-inside list-disc'>
-            <li>Make sure you're matchmaking region is set to "Worldwide"</li>
+            <li>Make sure you&apos;re matchmaking region is set to &quot;Worldwide&quot;</li>
             <li>Make sure you and your friend are using the same password</li>
             <li>Ring the Small Resonant Bell (and wait for the message) before ringing the Beckoning Bell</li>
             <li>Make sure the summoner has not already killed the area boss</li>

@@ -12,7 +12,13 @@ module.exports = {
       },
     },
   },
-  extends: ['plugin:react-hooks/recommended', 'plugin:prettier/recommended', 'plugin:@typescript-eslint/recommended', 'plugin:jsx-a11y/recommended'],
+  extends: [
+    'next/core-web-vitals',
+    'plugin:react-hooks/recommended',
+    'plugin:prettier/recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:jsx-a11y/recommended',
+  ],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
