@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import './globals.css';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/react';
 
 const monaSans = localFont({
   // Assuming you have a simplified case or just one weight/style
@@ -33,6 +34,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <SpeedInsights />
+      <Analytics />
       <body className={`${monaSans.className}`}>{children}</body>
     </html>
   );
