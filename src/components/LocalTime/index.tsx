@@ -1,1 +1,1 @@
-export * from './LocalTime'
+export * from './LocalTime';
