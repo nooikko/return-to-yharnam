@@ -1,6 +1,7 @@
 'use client';
 import React, { PropsWithChildren } from 'react';
 import { Section } from '@components';
+import GithubCorner from 'react-github-corner';
 
 interface CallToActionProps extends PropsWithChildren {}
 
@@ -20,6 +21,7 @@ export const CallToAction: React.FC<CallToActionProps> = () => {
       className='flex h-screen flex-col items-center justify-center bg-neutral-900 bg-cover bg-center'
       styles={{ backgroundImage: 'url(/background.webp)' }} // eslint-disable-line quotes
     >
+      <GithubCorner target='_blank' rel='noopener no-referrer' href='https://github.com/nooikko/return-to-yharnam' />
       <div className='flex max-w-[1024px] flex-col items-center space-y-6'>
         <div>
           <h1 className='text-clamp-lg font-bold uppercase leading-none text-neutral-900'>Return to Yharnam</h1>

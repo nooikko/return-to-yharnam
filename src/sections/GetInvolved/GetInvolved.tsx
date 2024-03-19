@@ -10,7 +10,7 @@ export const GetInvolved: React.FC<GetInvolvedProps> = () => {
     <Section className='flex flex-col items-center bg-neutral-300 px-6 py-12 lg:px-96'>
       <Header.H1 id='get-involved-section'>Get Involved</Header.H1>
       <div className='mb-5 max-w-[1024px] text-lg'>There&apos;s many ways to get involved with Return to Yharnam outside of the game.</div>
-      <div className='flex w-full max-w-[1024px] justify-between text-lg'>
+      <div className='flex w-full max-w-[1024px] flex-col justify-between text-lg md:flex-row'>
         <div className='space-y-5'>
           <Header.H2>Join the Community</Header.H2>
           <a className='block' target='_blank' rel='noopener no-referrer' href='https://discord.gg/bloodborne'>
@@ -26,7 +26,7 @@ export const GetInvolved: React.FC<GetInvolvedProps> = () => {
             </button>
           </a>
         </div>
-        <div className='space-y-5'>
+        <div className='mt-10 space-y-5 md:mt-0'>
           <Header.H2 className='space-y-5'>Spread the Word</Header.H2>
           <a
             className='block'
