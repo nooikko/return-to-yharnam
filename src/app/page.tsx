@@ -7,7 +7,6 @@ export default function Home() {
       <About />
       <FindHunters />
       <GetInvolved />
-      {/* <BottomBar /> */}
     </main>
   );
 }

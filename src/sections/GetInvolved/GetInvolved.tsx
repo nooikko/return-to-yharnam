@@ -1,5 +1,5 @@
 import React from 'react';
-import { Section, Header } from '@components';
+import { Section, Header, Button } from '@components';
 import { FaReddit, FaDiscord } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 
@@ -14,16 +14,16 @@ export const GetInvolved: React.FC<GetInvolvedProps> = () => {
         <div className='space-y-5'>
           <Header.H2>Join the Community</Header.H2>
           <a className='block' target='_blank' rel='noopener no-referrer' href='https://discord.gg/bloodborne'>
-            <button className='flex w-full items-center rounded-md bg-[#5865F2] px-4 py-2 text-white'>
+            <Button className='flex w-full items-center bg-[#5865F2] text-white'>
               <FaDiscord className='mr-2 inline-block' />
               <div className='w-full text-center'>Discord</div>
-            </button>
+            </Button>
           </a>
           <a className='block' target='_blank' rel='noopener no-referrer' href='https://www.reddit.com/r/bloodborne/'>
-            <button className='flex w-full items-center rounded-md bg-[#FF5700] px-4 py-2 text-white'>
+            <Button className='flex w-full items-center bg-[#FF5700] text-white'>
               <FaReddit className='mr-2 inline-block' />
               <div className='w-full text-center'>Reddit</div>
-            </button>
+            </Button>
           </a>
         </div>
         <div className='mt-10 space-y-5 md:mt-0'>
@@ -34,10 +34,10 @@ export const GetInvolved: React.FC<GetInvolvedProps> = () => {
             rel='noopener no-referrer'
             href='https://twitter.com/intent/post?text=You%27re%20in%20the%20know%2C%20right%3F%0A%23ReturnToYharnam2024%0Ahttps%3A%2F%2Freturntoyharnam.com%2F'
           >
-            <button className='flex w-full items-center rounded-md bg-black px-4 py-2 text-white'>
+            <Button className='flex w-full items-center bg-black text-white'>
               <FaXTwitter className='mr-2 inline-block' />
               <div className='w-full text-center'>Post</div>
-            </button>
+            </Button>
           </a>
         </div>
       </div>
