@@ -14,7 +14,7 @@ export const FindHunters: React.FC<FindHuntersProps> = () => {
           <div className='text-gray-200'>Bloodborne&apos;s summon system can by finnicky.</div>
           <div className='text-gray-200'>You can fight back with these tips and tricks.</div>
           <ul className='mt-5 list-inside list-disc text-sm sm:text-base'>
-            <li>Set you&apos;re matchmaking region is set to &quot;Worldwide&quot;</li>
+            <li>Set your matchmaking region is set to &quot;Worldwide&quot;</li>
             <li>Use the same password as your friend</li>
             <li>Ring the Small Bell before ringing the Beckoning Bell</li>
             <li>Make sure the host has not defeated the area boss</li>
