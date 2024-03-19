@@ -7,7 +7,7 @@ interface GetInvolvedProps {}
 
 export const GetInvolved: React.FC<GetInvolvedProps> = () => {
   return (
-    <Section className='flex flex-col items-center bg-neutral-300 px-6 py-12 lg:px-96'>
+    <Section className='flex flex-col items-center bg-neutral-300 px-6 py-12 lg:px-48'>
       <Header.H1 id='get-involved-section'>Get Involved</Header.H1>
       <div className='mb-5 max-w-[1024px] text-lg'>There&apos;s many ways to get involved with Return to Yharnam outside of the game.</div>
       <div className='flex w-full max-w-[1024px] flex-col justify-between text-lg md:flex-row'>
