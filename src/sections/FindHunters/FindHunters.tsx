@@ -11,8 +11,8 @@ export const FindHunters: React.FC<FindHuntersProps> = () => {
       <div className='flex w-full max-w-[1024px] flex-wrap-reverse justify-between'>
         <div className='mt-10'>
           <h2 className='text-clamp-sm font-bold uppercase'>Summoning Advice</h2>
-          <div className='text-gray-200'>Bloodborne&apos;s summon system can by finnicky.</div>
-          <div className='text-gray-200'>You can fight back with these tips and tricks.</div>
+          <div className='text-gray-400'>Bloodborne&apos;s summon system can by finnicky.</div>
+          <div className='text-gray-400'>You can fight back with these tips and tricks.</div>
           <ul className='mt-5 list-inside list-disc text-sm sm:text-base'>
             <li>Set your matchmaking region is set to &quot;Worldwide&quot;</li>
             <li>Use the same password as your friend</li>
@@ -23,14 +23,14 @@ export const FindHunters: React.FC<FindHuntersProps> = () => {
         </div>
         <div className='mt-10'>
           <h2 className='text-clamp-sm font-bold uppercase'>Event Codes</h2>
-          <div>Use the codes below to find other players</div>
+          <div className='text-gray-400'>Use the codes below to find other players</div>
           <table className='mt-5 min-w-full divide-y divide-gray-200'>
             <thead>
               <tr>
-                <th scope='col' className='py-3 pr-3 text-left text-xs font-medium uppercase tracking-wide text-gray-200 sm:pl-0'>
+                <th scope='col' className='py-3 pr-3 text-left text-xs font-medium uppercase tracking-wide text-gray-400 sm:pl-0'>
                   Password
                 </th>
-                <th scope='col' className='px-3 py-3 text-left text-xs font-medium uppercase tracking-wide text-gray-200'>
+                <th scope='col' className='px-3 py-3 text-left text-xs font-medium uppercase tracking-wide text-gray-400'>
                   Description
                 </th>
                 <th scope='col' className='relative py-3 pl-3 pr-4 sm:pr-0'>
@@ -41,15 +41,15 @@ export const FindHunters: React.FC<FindHuntersProps> = () => {
             <tbody className='divide-y divide-gray-200 text-sm'>
               <tr>
                 <td className='whitespace-nowrap py-2 pr-3 font-medium text-gray-100 sm:pl-0'>RETURN</td>
-                <td className='px-3 py-2 text-gray-200'>Get involved! Team up with anyone</td>
+                <td className='px-3 py-2 text-gray-400'>Get involved! Team up with anyone</td>
               </tr>
               <tr>
-                <td className='whitespace-nowrap py-2 pr-3  font-medium text-gray-100 sm:pl-0'>NEWBORN</td>
-                <td className=' px-3 py-2 text-gray-200'>Team up with new characters</td>
+                <td className='whitespace-nowrap py-2 pr-3 font-medium text-gray-100 sm:pl-0'>NEWBORN</td>
+                <td className=' px-3 py-2 text-gray-400'>Team up with new characters</td>
               </tr>
               <tr>
                 <td className='whitespace-nowrap py-2 pr-3 font-medium text-gray-100 sm:pl-0'>GREATONE</td>
-                <td className=' px-3 py-2 text-gray-200'>Team up with pre-made characters</td>
+                <td className=' px-3 py-2 text-gray-400'>Team up with pre-made characters</td>
               </tr>
             </tbody>
           </table>

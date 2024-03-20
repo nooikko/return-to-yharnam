@@ -1,6 +1,6 @@
 import React from 'react';
-import { Section, Header, LocalTime } from '@components';
-import { FaExternalLinkAlt } from 'react-icons/fa';
+import { Section, Header, LocalTime, Button } from '@components';
+import { FaPlaystation } from 'react-icons/fa';
 
 interface FAQProps {}
 
@@ -40,18 +40,21 @@ export const FAQ: React.FC<FAQProps> = () => {
           <div className='pt-8 lg:grid lg:grid-cols-12 lg:gap-8'>
             <dt className='text-base font-semibold leading-7 text-gray-200 lg:col-span-5'>I don&apos;t have the game, where can I get it?</dt>
             <dd className='mt-4 lg:col-span-7 lg:mt-0'>
-              <p className='flex text-base leading-7 text-gray-100'>
+              <p className='flex text-base leading-7 text-gray-100 '>
                 <a
                   href='https://store.playstation.com/en-us/product/UP9000-CUSA00900_00-BLOODBORNE000000'
                   rel='noopener nofollow noreferrer'
-                  className='flex items-center text-red-600'
                   target='_blank'
                 >
-                  Bloodborne <FaExternalLinkAlt className='mx-1' />
+                  <Button className='flex w-full items-center bg-[#0072ce] text-white'>
+                    <FaPlaystation className='mr-2 inline-block text-xl' />
+                    <div className='w-full text-center'>PlayStation Store</div>
+                  </Button>
                 </a>
-                &nbsp;is available on the PlayStation Store.
               </p>
-              <p>You can also choose to support your local game stores or purchase a physical copy from a variety of online retailers.</p>
+              <p className='mt-5'>
+                You can also choose to support your local game stores or purchase a physical copy from a variety of online retailers.
+              </p>
             </dd>
           </div>
         </dl>
