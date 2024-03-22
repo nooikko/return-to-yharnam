@@ -1,5 +1,5 @@
 import React from 'react';
-import { Section, Header, OrderedList, ListItem, UnorderedList } from '@components';
+import { Section, Header, OrderedList, ListItem, UnorderedList, Link } from '@components';
 
 interface AboutProps {}
 
@@ -13,24 +13,33 @@ export const Vileblood: React.FC<AboutProps> = () => {
         <div className='mt-10 '>
           <Header.H2>How to PVP</Header.H2>
           <OrderedList>
-            <ListItem>Purchase the Small Resonant Bell.</ListItem>
+            <ListItem>
+              Purchase the <Link href='https://www.bloodborne-wiki.com/2015/03/small-resonant-bell.html'>Small Resonant Bell</Link>.
+            </ListItem>
             <ListItem>Reload the Hunter&apos;s Dream.</ListItem>
-            <ListItem>Purchase the Sinister Resonant Bell.</ListItem>
+            <ListItem>
+              Purchase the <Link href='https://www.bloodborne-wiki.com/2015/03/ominous-resonant-bell.html'>Sinister Resonant Bell</Link>.
+            </ListItem>
             <ListItem>Go to the area you want to PVP in.</ListItem>
-            <ListItem>Ring the Sinister Resonant Bell.</ListItem>
+            <ListItem>
+              Ring the <Link href='https://www.bloodborne-wiki.com/2015/03/ominous-resonant-bell.html'>Sinister Resonant Bell</Link>.
+            </ListItem>
           </OrderedList>
           <div>
             <h3 className='mt-5 font-bold uppercase'>Tips:</h3>
             <UnorderedList>
-              <ListItem>Nightmare Frontier is the most common PVP area.</ListItem>
+              <ListItem>
+                <Link href='https://www.bloodborne-wiki.com/2015/03/nightmare-frontier.html'>Nightmare Frontier</Link> is the most common PVP area.
+              </ListItem>
             </UnorderedList>
           </div>
         </div>
         <div className='mt-10'>
           <Header.H2>How to avoid PVP</Header.H2>
           <div className='text-base'>
-            PVP is triggered by a Bell-Ringing Woman. These enemies are either static in the world (typically later game) or appear when you summon an
-            ally using the Beckoning Bell. Killing the Bell-Ringing woman will prevent PVP.
+            PVP is triggered by a <Link href='https://www.bloodborne-wiki.com/2015/03/chime-maiden.html'>Bell-Ringing Woman</Link>. These enemies are
+            either static in the world (typically later game) or appear when you summon an ally using the Beckoning Bell. Killing the{' '}
+            <Link href='https://www.bloodborne-wiki.com/2015/03/chime-maiden.html'>Bell-Ringing Woman</Link> will prevent PVP.
             <div>
               <h3 className='mt-10 font-bold uppercase'>Hunting a Bell-Ringing Woman:</h3>
               <UnorderedList>
