@@ -14,7 +14,7 @@ export const FAQ: React.FC<FAQProps> = () => {
             <dt className='text-base font-semibold leading-7 text-gray-200 lg:col-span-5'>What are the times for the event?</dt>
             <dd className='mt-4 lg:col-span-7 lg:mt-0'>
               <p className='text-base leading-7 text-gray-100'>
-                Return to Yharnam starts at <LocalTime epochTimestamp={1711324800} /> and ends at <LocalTime epochTimestamp={1712534400} />.
+                Return to Yharnam starts at <LocalTime epochTimestamp={1711238400} /> and ends at <LocalTime epochTimestamp={1712534400} />.
               </p>
               <div className='text-xs text-gray-100/75'>(Times shown are in YOUR local time)</div>
             </dd>
