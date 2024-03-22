@@ -49,7 +49,7 @@ export const CallToAction: React.FC<CallToActionProps> = () => {
       </div>
       <div className='absolute bottom-0 flex w-full  flex-col items-center'>
         <button className='flex cursor-pointer flex-col items-center' onClick={() => scrollToSection('about-section')}>
-          <div className='mb-4 text-clamp-sm uppercase'>See Mored</div>
+          <div className='mb-4 text-clamp-sm uppercase'>See More</div>
           <div className='animate-bounce'>
             <FiChevronsDown className='text-clamp-lg' />
           </div>
