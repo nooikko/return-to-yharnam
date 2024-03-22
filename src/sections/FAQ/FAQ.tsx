@@ -1,5 +1,5 @@
 import React from 'react';
-import { Section, Header, LocalTime, Button } from '@components';
+import { Section, Header, LocalTime, Button, Link } from '@components';
 import { FaPlaystation } from 'react-icons/fa';
 
 interface FAQProps {}
@@ -52,6 +52,7 @@ export const FAQ: React.FC<FAQProps> = () => {
                   </Button>
                 </a>
               </p>
+              <p>The Bloodborne™ Complete Edition Bundle includes both the base game and the DLC.</p>
               <p className='mt-5'>
                 You can also choose to support your local game stores or purchase a physical copy from a variety of online retailers.
               </p>
