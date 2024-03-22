@@ -16,7 +16,7 @@ export const FAQ: React.FC<FAQProps> = () => {
               <p className='text-base leading-7 text-gray-100'>
                 Return to Yharnam starts at <LocalTime epochTimestamp={1711238400} /> and ends at <LocalTime epochTimestamp={1712534400} />.
               </p>
-              <div className='text-xs text-gray-100/75'>(Times shown are in YOUR local time)</div>
+              <div className='text-sm text-gray-100/75'>(Times shown are in YOUR local time)</div>
             </dd>
           </div>
           <div className='pt-8 lg:grid lg:grid-cols-12 lg:gap-8'>
