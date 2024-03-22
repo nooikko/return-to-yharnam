@@ -1,5 +1,5 @@
 import React from 'react';
-import { Section, Header } from '@components';
+import { Section, Header, ListItem, UnorderedList } from '@components';
 
 interface FindHuntersProps {}
 
@@ -8,21 +8,21 @@ export const FindHunters: React.FC<FindHuntersProps> = () => {
     <Section className='flex flex-col items-center bg-neutral-900 px-6 py-12 text-white md:px-12 xl:px-48'>
       <Header.H1 id='find-hunters-section'>Find Hunters</Header.H1>
       <div>While passwords are not required for the event, they allow us to bypass level limiting and find more hunters!</div>
-      <div className='flex w-full max-w-[1024px] flex-wrap-reverse justify-between'>
-        <div className='mt-10'>
-          <h2 className='text-clamp-sm font-bold uppercase'>Summoning Advice</h2>
+      <div className='grid w-full max-w-7xl grid-cols-1 gap-x-20 text-lg lg:grid-cols-2'>
+        <div className='order-1 mt-10'>
+          <Header.H2>Summoning Advice</Header.H2>
           <div className='text-gray-400'>Bloodborne&apos;s summon system can by finnicky.</div>
           <div className='text-gray-400'>You can fight back with these tips and tricks.</div>
-          <ul className='mt-5 list-inside list-disc space-y-2 text-lg'>
-            <li>Set your matchmaking region is set to &quot;Worldwide&quot;</li>
-            <li>Use the same password as your friend</li>
-            <li>Ring the Small Bell before ringing the Beckoning Bell</li>
-            <li>Make sure the host has not defeated the area boss</li>
-            <li>Stand where you can be summoned</li>
-          </ul>
+          <UnorderedList>
+            <ListItem>Set your matchmaking region is set to &quot;Worldwide&quot;</ListItem>
+            <ListItem>Use the same password as your friend</ListItem>
+            <ListItem>Ring the Small Bell before ringing the Beckoning Bell</ListItem>
+            <ListItem>Make sure the host has not defeated the area boss</ListItem>
+            <ListItem>Stand where you can be summoned</ListItem>
+          </UnorderedList>
         </div>
-        <div className='mt-10'>
-          <h2 className='text-clamp-sm font-bold uppercase'>Event Codes</h2>
+        <div className='order-2 mt-10'>
+          <Header.H2>Event Codes</Header.H2>
           <div className='text-gray-400'>Use the codes below to find other players</div>
           <table className='mt-5 min-w-full divide-y divide-gray-200'>
             <thead>

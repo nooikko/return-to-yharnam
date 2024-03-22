@@ -3,3 +3,4 @@ export * from './FindHunters';
 export * from './About';
 export * from './GetInvolved';
 export * from './FAQ';
+export * from './Vileblood';

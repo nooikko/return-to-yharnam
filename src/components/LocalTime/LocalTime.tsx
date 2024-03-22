@@ -9,5 +9,5 @@ interface LocalTimeProps {
 export const LocalTime: React.FC<LocalTimeProps> = ({ epochTimestamp }) => {
   const localTime = dayjs(epochTimestamp * 1000).format('MMMM DD, YYYY hh:mm A');
 
-  return <span className='whitespace-nowrap rounded-md border border-red-800 bg-black p-1'>{localTime}</span>;
+  return <span className='whitespace-nowrap rounded-md border border-red-700 bg-gray-100 p-1'>{localTime}</span>;
 };

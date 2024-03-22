@@ -9,7 +9,7 @@ export const About: React.FC<AboutProps> = () => {
       <Header.H1 className='mb-5' id='about-section'>
         About
       </Header.H1>
-      <div className='max-w-[1024px] space-y-5 text-lg'>
+      <div className='max-w-7xl space-y-5 text-lg'>
         <div>
           <span className='font-semibold uppercase'>Return to Yharnam</span> is a community event where players return to the game of Bloodborne to
           play together and help new players. During this time you are encouraged to start a new character, play through the game, and summon as many
