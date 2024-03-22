@@ -2,6 +2,7 @@
 import React, { PropsWithChildren } from 'react';
 import { Section, Button } from '@components';
 import GithubCorner from 'react-github-corner';
+import { FiChevronsDown } from 'react-icons/fi';
 
 interface CallToActionProps extends PropsWithChildren {}
 
@@ -45,6 +46,14 @@ export const CallToAction: React.FC<CallToActionProps> = () => {
           </Button>
           <div />
         </div>
+      </div>
+      <div className='absolute bottom-0 flex w-full  flex-col items-center'>
+        <button className='flex cursor-pointer flex-col items-center' onClick={() => scrollToSection('about-section')}>
+          <div className='mb-4 text-clamp-sm uppercase'>See Mored</div>
+          <div className='animate-bounce'>
+            <FiChevronsDown className='text-clamp-lg' />
+          </div>
+        </button>
       </div>
     </Section>
   );
