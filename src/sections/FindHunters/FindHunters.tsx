@@ -13,7 +13,7 @@ export const FindHunters: React.FC<FindHuntersProps> = () => {
           <h2 className='text-clamp-sm font-bold uppercase'>Summoning Advice</h2>
           <div className='text-gray-400'>Bloodborne&apos;s summon system can by finnicky.</div>
           <div className='text-gray-400'>You can fight back with these tips and tricks.</div>
-          <ul className='mt-5 list-inside list-disc text-sm sm:text-base'>
+          <ul className='mt-5 list-inside list-disc space-y-2 text-lg'>
             <li>Set your matchmaking region is set to &quot;Worldwide&quot;</li>
             <li>Use the same password as your friend</li>
             <li>Ring the Small Bell before ringing the Beckoning Bell</li>
@@ -41,15 +41,15 @@ export const FindHunters: React.FC<FindHuntersProps> = () => {
             <tbody className='divide-y divide-gray-200 text-sm'>
               <tr>
                 <td className='whitespace-nowrap py-2 pr-3 font-medium text-gray-100 sm:pl-0'>RETURN</td>
-                <td className='px-3 py-2 text-gray-400'>Get involved! Team up with anyone</td>
+                <td className='px-3 py-2 text-gray-100'>Get involved! Team up with anyone</td>
               </tr>
               <tr>
                 <td className='whitespace-nowrap py-2 pr-3 font-medium text-gray-100 sm:pl-0'>NEWBORN</td>
-                <td className=' px-3 py-2 text-gray-400'>Team up with new characters</td>
+                <td className=' px-3 py-2 text-gray-100'>Team up with new characters</td>
               </tr>
               <tr>
                 <td className='whitespace-nowrap py-2 pr-3 font-medium text-gray-100 sm:pl-0'>GREATONE</td>
-                <td className=' px-3 py-2 text-gray-400'>Team up with pre-made characters</td>
+                <td className=' px-3 py-2 text-gray-100'>Team up with pre-made characters</td>
               </tr>
             </tbody>
           </table>
