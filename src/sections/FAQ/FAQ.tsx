@@ -1,5 +1,5 @@
 import React from 'react';
-import { Section, Header, LocalTime, Button, Link } from '@components';
+import { Section, Header, LocalTime, Button } from '@components';
 import { FaPlaystation } from 'react-icons/fa';
 
 interface FAQProps {}
