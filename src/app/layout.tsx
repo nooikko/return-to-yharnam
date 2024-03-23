@@ -11,6 +11,14 @@ const monaSans = localFont({
 });
 
 export const metadata: Metadata = {
+  authors: [
+    {
+      url: 'https://github.com/nooikko',
+      name: 'Quinn Penney',
+    },
+  ],
+  creator: 'Quinn Penney',
+  publisher: 'Quinn Penney',
   title: 'Return to Yharnam - 2024',
   description: 'A yearly event where players return to the game of Bloodborne to play together and help new players.',
   keywords:
@@ -23,6 +31,10 @@ export const metadata: Metadata = {
     images: './twitter.webp',
     title: 'Return to Yharnam - 2024',
     url: 'https://returntoyharnam.com',
+    siteName: 'Return to Yharnam',
+  },
+  icons: {
+    icon: './favicon.ico',
   },
 };
 
