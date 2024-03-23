@@ -26,7 +26,7 @@ export const GetInvolved: React.FC<GetInvolvedProps> = () => {
             </Button>
           </a>
         </div>
-        <div className='mt-10 space-y-5 md:mt-0'>
+        <div className='mt-10 space-y-5 lg:mt-0'>
           <Header.H2 className='space-y-5'>Spread the Word</Header.H2>
           <a
             className='block'

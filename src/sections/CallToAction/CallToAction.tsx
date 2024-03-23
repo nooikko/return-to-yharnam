@@ -1,22 +1,13 @@
 'use client';
 import React, { PropsWithChildren } from 'react';
-import { Section, Button } from '@components';
+import { Section, Button, Header } from '@components';
 import GithubCorner from 'react-github-corner';
 import { FiChevronsDown } from 'react-icons/fi';
+import { scrollToSection } from '@helpers';
 
 interface CallToActionProps extends PropsWithChildren {}
 
 export const CallToAction: React.FC<CallToActionProps> = () => {
-  const scrollToSection = (sectionId: string) => {
-    const section = document.getElementById(sectionId);
-    if (section) {
-      window.scrollTo({
-        top: section.offsetTop,
-        behavior: 'smooth',
-      });
-    }
-  };
-
   return (
     <Section
       className='flex h-screen flex-col items-center justify-center bg-neutral-900 bg-cover bg-center'
@@ -25,9 +16,9 @@ export const CallToAction: React.FC<CallToActionProps> = () => {
       <GithubCorner target='_blank' rel='noopener no-referrer' href='https://github.com/nooikko/return-to-yharnam' />
       <div className='flex max-w-[1024px] flex-col items-center'>
         <div>
-          <h1 className='text-clamp-lg font-bold uppercase leading-none text-neutral-900'>Return to Yharnam</h1>
+          <Header.H1 className='text-left text-clamp-lg font-bold'>Return to Yharnam</Header.H1>
           <div className='flex space-x-4 self-center text-clamp-sm uppercase text-neutral-900 lg:self-start'>
-            <h2 className='uppercase leading-none text-neutral-900'>A Bloodborne Community Event</h2>
+            <Header.H2 className='font-normal'>A Bloodborne Community Event</Header.H2>
           </div>
         </div>
         <div className='mt-2 flex space-x-4 self-center text-clamp uppercase text-neutral-900 lg:self-start'>
@@ -48,7 +39,7 @@ export const CallToAction: React.FC<CallToActionProps> = () => {
         </div>
       </div>
       <div className='absolute bottom-0 flex w-full  flex-col items-center'>
-        <button className='flex cursor-pointer flex-col items-center' onClick={() => scrollToSection('about-section')}>
+        <button className='flex cursor-pointer flex-col items-center' onClick={() => scrollToSection('find-hunters-section')}>
           <div className='mb-4 text-clamp-sm uppercase'>See More</div>
           <div className='animate-bounce'>
             <FiChevronsDown className='text-clamp-lg' />

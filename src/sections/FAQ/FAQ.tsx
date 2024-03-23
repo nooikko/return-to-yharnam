@@ -1,5 +1,5 @@
 import React from 'react';
-import { Section, Header, LocalTime, Button } from '@components';
+import { Section, Header, LocalTime, Button, Link } from '@components';
 import { FaPlaystation } from 'react-icons/fa';
 
 interface FAQProps {}
@@ -10,6 +10,16 @@ export const FAQ: React.FC<FAQProps> = () => {
       <div className='mx-auto max-w-7xl divide-y divide-gray-900/10 px-6 lg:px-8'>
         <Header.H1 id='faq-section'>Frequently Asked Questions</Header.H1>
         <dl className='mt-10 space-y-8 divide-y divide-gray-900/10'>
+          <div className='pt-8 lg:grid lg:grid-cols-12 lg:gap-8'>
+            <dt className='text-base font-semibold leading-7 text-gray-800 lg:col-span-5'>What is Return to Yharnam?</dt>
+            <dd className='mt-4 lg:col-span-7 lg:mt-0'>
+              <p className='text-base leading-7 text-gray-900'>
+                &quot;Return to&quot; events are community events where players return to a game to play together and help new players. This serves
+                multiple purposes, such as reinvigorating the community, helping new players, and showing the developers that we still love their
+                games.
+              </p>
+            </dd>
+          </div>
           <div className='pt-8 lg:grid lg:grid-cols-12 lg:gap-8'>
             <dt className='text-base font-semibold leading-7 text-gray-800 lg:col-span-5'>What are the times for the event?</dt>
             <dd className='mt-4 lg:col-span-7 lg:mt-0'>
@@ -55,6 +65,17 @@ export const FAQ: React.FC<FAQProps> = () => {
               <p>The Bloodborne™ Complete Edition Bundle includes both the base game and the DLC.</p>
               <p className='mt-5'>
                 You can also choose to support your local game stores or purchase a physical copy from a variety of online retailers.
+              </p>
+            </dd>
+          </div>
+          <div className='pt-8 lg:grid lg:grid-cols-12 lg:gap-8'>
+            <dt className='text-base font-semibold leading-7 text-gray-800 lg:col-span-5'>What&apos;s with this website?</dt>
+            <dd className='mt-4 lg:col-span-7 lg:mt-0'>
+              <p className='text-base leading-7 text-gray-900'>
+                This website is meant to be a quick reference for the event. While other platforms such as the&nbsp;
+                <Link href='https://www.reddit.com/r/bloodborne/'>Blooborne Subreddit</Link> and&nbsp;
+                <Link href='https://discord.gg/bloodborne'>Discord</Link> promote the game and the event more generally, this site is meant to be a
+                simplified resource on how to partake.
               </p>
             </dd>
           </div>
