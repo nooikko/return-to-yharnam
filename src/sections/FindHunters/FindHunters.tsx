@@ -1,5 +1,5 @@
 import React from 'react';
-import { Section, Header, ListItem, UnorderedList } from '@components';
+import { Section, Header, ListItem, UnorderedList, Link } from '@components';
 
 interface FindHuntersProps {}
 
@@ -39,6 +39,16 @@ export const FindHunters: React.FC<FindHuntersProps> = () => {
               </tr>
             </thead>
             <tbody className='divide-y divide-gray-200 text-sm'>
+              <tr>
+                <td className='whitespace-nowrap py-2 pr-3 font-medium text-gray-100 sm:pl-0'>PASSWORDLESS</td>
+                <td className='px-3 py-2 text-gray-100'>Ring without a password to matchmake normally!</td>
+              </tr>
+              <tr>
+                <td className='whitespace-nowrap py-2 pr-3 font-medium text-gray-100 sm:pl-0'>BBCORD</td>
+                <td className='px-3 py-2 text-gray-100'>
+                  Find others from the <Link href='https://discord.gg/bloodborne'>Discord Server!</Link>
+                </td>
+              </tr>
               <tr>
                 <td className='whitespace-nowrap py-2 pr-3 font-medium text-gray-100 sm:pl-0'>RETURN</td>
                 <td className='px-3 py-2 text-gray-100'>Get involved! Team up with anyone</td>
